@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./CSS/styles_1.css">
   <title>Result</title>
 </head>
-<body>
+<body bgcolor="<?php echo @$_COOKIE['color']; ?>">
 
   <form action="createCookie.php" method="post">
 
