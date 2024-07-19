@@ -113,7 +113,8 @@
       ]);
 
       var options = {
-        title: 'Sweets Survey'
+        title: 'Sweets Survey',
+        is3D: true,
       };
 
       var chart = new google.visualization.PieChart(document.getElementById('piechart'));
