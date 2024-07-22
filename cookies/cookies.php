@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./CSS/styles_1.css">
   <title>Result</title>
+  <style>
+    body{
+      background: <?php echo @$_COOKIE['color']; ?>;
+    }
+  </style>
 </head>
-<body bgcolor="<?php echo @$_COOKIE['color']; ?>">
+<body>
 
   <form action="createCookie.php" method="post">
 

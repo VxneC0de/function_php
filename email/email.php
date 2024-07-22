@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Result</title>
+  <title>Email</title>
 </head>
 <body>
   
-  <form method="post" action="email2.php
-  ">
+  <form method="post" action="email2.php">
     
     <div>
 
@@ -31,6 +30,8 @@
       <textarea name="comment" placeholder="Enter your comment here..."></textarea>
 
     </div>
+
+    <button type="submit">Send</button>
   
   </form>
 

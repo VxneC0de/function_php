@@ -1,7 +1,7 @@
 <?php
 
 extract($_POST);
-setcookie("color", $_color, time()-3600);
+setcookie("color", $color, time()+3600);
 header("location:cookies.php");
 
 //primer parametro, nombre de la cookie
